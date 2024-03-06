@@ -1,7 +1,6 @@
 {
   // editor
   "editor.wordWrap": "on",
-  "editor.fontSize": 15,
   "editor.lineHeight": 25,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
@@ -10,14 +9,16 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 18,
 
   // explorer
   "explorer.compactFolders": false,
 
   // workbench
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.colorTheme": "Min Dark",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -33,5 +34,8 @@
       "source": "Git Bash"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "symbols.hidesExplorerArrows": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
 }
